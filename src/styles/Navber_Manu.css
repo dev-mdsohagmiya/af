@@ -1,0 +1,130 @@
+.navber {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.connect-btn {
+  border-radius: 18px !important;
+
+  padding: 10px 30px;
+  gap: 18px;
+  background-color: black !important;
+  color: #eef4ed !important;
+  font-family: "Poppins", sans-serif !important;
+
+  display: inline-block;
+  font-weight: 600;
+}
+.nav-list {
+  margin-top: 30px;
+}
+.nav-list li {
+  margin-left: 30px;
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #1e1e1e;
+}
+
+.logo {
+  height: 97px;
+  width: 90px;
+}
+#toggle-btn {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .connect-btn {
+    font-size: 14px;
+    padding: 5px 20px;
+  }
+  .nav-list li {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .logo {
+    height: 77px;
+    width: 70px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-list {
+    margin-top: 5px;
+  }
+  .toggle-btn {
+    display: inline-block;
+    font-size: 50px;
+    cursor: pointer;
+
+    border: none;
+    transform: translateY(8px);
+
+    font-size: 40px !important;
+  }
+  #toggle-btn {
+    display: block;
+    border: 1px solid black;
+    padding: 2px 2px;
+    cursor: pointer;
+  }
+}
+
+.manu-toggle {
+  background-color: #1e1e1e;
+  position: absolute;
+  height: 100vh;
+  top: 0px;
+  width: 80%;
+  align-items: center;
+  overflow: hidden;
+  transform: translateX(-100%);
+  transition: transform ease-in-out 0.5s;
+}
+
+.toggler-class {
+  transform: translateX(0%);
+}
+
+.remove-toggle {
+  transform: translateX(-100%);
+}
+
+.manu .logo {
+  background-color: white;
+  margin-top: 50px;
+  padding: 5px 6px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.manu .nav-list li a {
+  color: #eef4ed;
+}
+.manu .nav-list {
+  margin-top: 50px;
+  padding: 12px;
+}
+.manu .manu-list {
+  padding-top: 100px !important;
+}
+.manu hr {
+  height: 2px;
+  background-color: #eef4ed;
+}
+.manu .connect-btn {
+  border: none;
+  padding: 10px 30px;
+  align-items: end;
+  position: absolute;
+  bottom: 80px;
+  background-color: #eef4ed !important;
+  color: black !important;
+  cursor: pointer;
+}
+.manu .close-manu-btn {
+  color: #eef4ed;
+  font-size: 40px;
+  cursor: pointer;
+}
