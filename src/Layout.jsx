@@ -24,9 +24,7 @@ export default function Layout() {
       <div>
         <About />
       </div>
-      <div>
-        <Subscribe />
-      </div>
+      <div>{/* <Subscribe /> */}</div>
       <div>
         <Footer />
       </div>

@@ -273,6 +273,9 @@
 }
 
 @media only screen and (max-width: 767px) {
+  #hero .card-1 {
+    margin-left: 0px;
+  }
   #hero h1 {
     font-size: 30px;
     color: #ff6b35;
