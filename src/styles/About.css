@@ -39,17 +39,17 @@
     padding: 25px 0px;
   }
   #about h2 {
-    font-size: 30px;
+    font-size: 40px;
   }
   #about img {
     height: 50px;
   }
   #about p {
-    font-size: 15px;
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 450px) {
   #about img {
-    height: 25px;
+    height: 40px;
   }
 }

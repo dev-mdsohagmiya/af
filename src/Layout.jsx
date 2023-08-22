@@ -6,6 +6,7 @@ import Subscribe from "./sections/Subscribe";
 import About from "./sections/About";
 import AboutClients from "./components/AboutClients";
 import AskQuestions from "./sections/AskQuestions";
+import DownloadApp from "./sections/DownloadApp";
 
 export default function Layout() {
   return (
@@ -13,6 +14,9 @@ export default function Layout() {
       <Navber />
       <div>
         <Hero />
+      </div>
+      <div>
+        <DownloadApp />
       </div>
       <div>
         <AskQuestions />

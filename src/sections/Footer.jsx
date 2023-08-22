@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 export default function Footer() {
   return (
     <section id="footer" className="footer bg-black">
-      <div className="container">
+      <div className="container mx-4">
         <div className="row col">
           <div className="col-xm-12 col-sm-6 col-md-4 col-lg-2 d-flex justify-content-start">
             <div>

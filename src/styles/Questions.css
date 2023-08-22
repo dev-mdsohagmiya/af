@@ -59,4 +59,7 @@
   .question-dev {
     font-size: 22px;
   }
+  .question-dev .ques {
+    margin-left: 20px;
+  }
 }

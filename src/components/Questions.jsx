@@ -7,7 +7,7 @@ export default function Questions() {
     <div>
       {/* Tabs */}
       <div id="ques">
-        <div className="d-flex justify-content-center">
+        <div className="d-flex justify-content-center ques-tabs mt-4 mb-4">
           <button className="btn-1 bg-primary text-white">General</button>
           <button className="mx-2 btn-1">Support</button>
           <button className="btn-1">Product</button>
