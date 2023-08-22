@@ -3,7 +3,7 @@
   background-size: 1560px;
   background-position: center;
   background-repeat: no-repeat;
-  transform: translateY(-86px);
+  transform: translateY(-66px);
 
   position: relative;
 }
@@ -11,7 +11,8 @@
   margin-left: 40px;
 }
 #hero .card-2 {
-  margin-top: 60px;
+  transform: translateX(-100px);
+  padding-top: 20px;
 }
 #hero h1 {
   font-size: 68px;
@@ -81,7 +82,7 @@
     background-size: 1500px;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translateY(-86px);
+    transform: translateY(-66px);
 
     position: relative;
   }
@@ -93,7 +94,7 @@
     background-size: 1450px;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translateY(-100px);
+    transform: translateY(-60px);
 
     position: relative;
   }
@@ -114,7 +115,7 @@
     background-size: 1400px;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translateY(-120px);
+    transform: translateY(-80px);
 
     position: relative;
   }
@@ -134,7 +135,7 @@
     background-size: 1200px;
     background-position: center;
     background-repeat: no-repeat;
-    transform: translateY(-100px);
+    transform: translateY(-60px);
 
     position: relative;
   }
@@ -170,7 +171,7 @@
 
 @media only screen and (max-width: 1199px) {
   #hero {
-    background-image: url("../../public/assets/hero/line-1.png");
+    background-image: none !important;
     background-size: 1000px;
     background-position: center;
     background-repeat: no-repeat;
@@ -276,9 +277,10 @@
     font-size: 30px;
     color: #ff6b35;
     font-weight: 600;
+    padding-top: 50px;
   }
   #hero button {
-    padding: 5px 20px;
+    padding: 2px 20px;
   }
   #hero .card-2 {
     transform: translateY(-50px);
@@ -297,7 +299,7 @@
     padding-top: 140px;
   }
   #hero h1 {
-    padding-top: 20px;
+    padding-top: 10px;
   }
   #hero button {
     padding: 5px 20px;

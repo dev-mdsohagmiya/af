@@ -1,0 +1,83 @@
+#subscribe {
+  background: url("../../public/assets/subscribe/bg.png");
+  padding: 80px 0px;
+}
+
+#subscribe h2 {
+  color: #fff;
+  font-weight: 600;
+}
+
+#subscribe p {
+  color: #fff;
+  font-weight: 300;
+}
+
+#subscribe .button-group {
+  opacity: 0.9;
+  background-color: rgba (145, 134, 134, 0);
+
+  filter: blur(3px);
+}
+#subscribe .input-group input {
+  border-radius: 0px !important;
+  height: 63px;
+
+  border: 2px solid white;
+}
+#subscribe input::placeholder {
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 21.745px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+  text-align: start;
+}
+#subscribe input {
+  background-color: rgba(255, 107, 53, 0);
+}
+#subscribe .input-group button {
+  border-radius: 0px !important;
+  height: 63px;
+
+  border: 3px solid white;
+  color: #fff;
+  padding: 0px 70px;
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 21.745px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+#subscribe .input-group button:hover {
+  border-radius: 0px !important;
+  height: 63px;
+  background-color: black;
+  color: white;
+}
+#subscribe label {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: lowercase;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.form-check-input {
+  height: 30px;
+  width: 30px;
+  border: 2px solid white;
+  background-color: rgba(255, 107, 53, 0);
+  border-radius: none !important;
+}
